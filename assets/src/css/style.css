@@ -1,3 +1,47 @@
+
 body{
-    background: #ccc;
+    height: 100vh;
+    background: linear-gradient(#000428, #004e92);
+    color: #fff;
 }
+
+.containe{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-primary{
+    width: 100%;
+    height: 50vh;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.secao-imagem > figure{
+    margin: 1.5em 0;
+}
+
+.secao-imagem > figure > .imagem{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+
+.secao-secundaria{
+    width: 100%;
+    height: 50vh;
+}
+
+.secao-secundaria > .lista-links{
+    height: 40vh;
+    padding: 0 2%;
+}
+
+.secao-secundaria > .lista-links > .lista > .item-lista{
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+  margin: 1em 0;
+  
+} 
